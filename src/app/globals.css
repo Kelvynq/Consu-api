@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+:root {
+	--color-1: #2f3033;
+	--color-2: #fb8cf9;
+}
+
+body {
+	background-image: url('/tong-wei-lofii-n-1-min.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: inherit;
+	background-attachment: fixed;
+}
+
+header {
+	width: 100%;
+	padding: 20px 20px 10px 20px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-color: var(--color-1);
+	margin: auto;
+	box-shadow: rgba(0, 0, 0, 0.22) 0px 0px 30px 10px;
+	
+}
+main {
+	padding-top: 70px;
+	width: 70%;
+	color: white;
+	min-height: 100vh;
+	background-color: #2f3033da;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+}
+
+header img {
+	height: 70px;
+}
+
+.sv{
+	color: white;
+	display: flex;
+	padding: 0 20px 0 20px;
+	text-decoration: none;
+	font-size: larger;
+	font-weight: 400;
+}
+
+ul {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+li {
+	list-style: none;
+	padding: 0 20px 0 20px;
+}
+
+a {
+	text-decoration: none;
+	font-size: larger;
+	font-weight: 400;
+	color: #fff;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: red;
+}
+
+.footer {
+	font-size: 20px;
+	background-color: #050508;
+	position: block;
+	bottom: 0;
+	color: #fff;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin: auto;
+}
